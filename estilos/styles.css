@@ -1,0 +1,168 @@
+body{
+    background: #C0DFFF;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.contenedor-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8497FC;
+    width: auto;
+    height: 200px;
+}
+
+.contenedor-1 img{
+    width: 15%;
+    border: 15px solid #C0DFFF;
+    border-radius: 50%;
+    margin: 100px auto -7% auto;
+}
+
+
+.contenedor-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #C0DFFF;
+    margin-top: 50px;
+    width: auto;
+    height: 300px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenido h2{
+    font-size: 25px;
+    margin: -5px;
+    color: #555;
+}
+.contenido h1{
+    font-size: 35px;
+    margin: 10px;
+    color: #555;
+}
+.contenido h3{
+    font-size: 20px;
+    margin: -5px;
+    color: #555;
+}
+
+.contenedor-3{
+    background: #e0b1ee;
+}
+
+.small-container{ 
+    margin: 30px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: left;
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-size: 30px;
+}
+
+.col-4{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+.col-4 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #555;
+}
+
+
+.col-4 img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+
+
+
+.col-4 .btn{
+    display: inline-block;
+    background: #66adff;
+    color: #dbedff;
+    padding: 4px 15px;
+    margin: 15px 0;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #0a79f8;
+    color: #ffffff;
+}
+
+.col-5{
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    transition: transform 0.5s;
+}
+
+.col-5 h1{
+    font-size: 20px;
+    text-align: left;
+}
+.col-5 h2{
+    font-size: 15px;
+    text-align: left;
+}
+
+.col-5 a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.contenedor-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8497FC;
+    color: #ffffff;
+    width: auto;
+    height: 200px;
+}
+
+.contenedor-5 h1{
+    font-size: 20px;
+}
+
+
+
+
